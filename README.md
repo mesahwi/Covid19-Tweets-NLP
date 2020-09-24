@@ -68,8 +68,9 @@ loss: 0.9181, accuracy: 0.6691, val_loss: 0.6060, val_accuracy: 0.7841
 <img src = "https://user-images.githubusercontent.com/33714067/94120083-ad05c580-fe8a-11ea-897d-3fc153ff931e.png" width=450 height=350>
 </div>
 
-On the test set, I ended up with loss: 0.940627932548523, and accuracy: 0.6538360118865967.
+On the test set, I ended up with loss: 0.940627932548523, and accuracy: 0.6538360118865967. <br>
 
+Edit : Using BERT with raw texts did boost the performance to loss: 0.6948069930076599, and accuracy: 0.7484840750694275.
 
 # 4.Further Directions
-As mentioned above, there are 2 main ways to improve the model. The first is to preprocess more carefully, perhaps using other stemmers. Also, using the raw texts on BERT could improve the results. The second way is to fine tune the models used above. 
+As mentioned above, there are 2 main ways to improve the model. The first is to preprocess more carefully, perhaps using other stemmers, and using other embedding methods that take into account subwords. The second way is to fine tune the models used above. 
